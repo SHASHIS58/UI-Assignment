@@ -1,13 +1,3 @@
-.container {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  border: 5px solid #00a1ffa8;
-  width: 25%;
-  font-family: sans-serif;
-}
-
 .header {
   display: flex;
   width: 100%;
@@ -40,6 +30,16 @@
   font-weight: 600;
 }
 
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #00a1ffa8;
+  width: 25%;
+  font-family: sans-serif;
+}
+
 .value > .sub-title {
   color: #808080e6;
 }
@@ -54,7 +54,7 @@
   width: 50%;
 }
 
-.caret {
+.columnValue {
   color: #00a1ffa8;
   padding: 0px 5px 0px 5px;
 }
