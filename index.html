@@ -1,62 +1,38 @@
-<html>
 
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-
-<body>
-	<div class="container">
-		<div class="header">
-			<div class="header-left">
-				<div class="label">Account</div>
-			</div>
-			<div class="header-right">
-				<div class="label">
-					<div class="value">
-						<div><span class="columnValue">^</span><span>Available Cash</span></div>
-						<div class="sub-title">Today's Change</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section">
-			<div class="row">
-				<div class="content">
-					<div class="account">IRA - 5200</div>
-				</div>
-				<div class="content">
-					<div class="value">
-						<div class="currency">$5,763.36</div>
-						<div class="negative">-0.08% / $8,916.69</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="content">
-					<div class="account">AAA - 1812</div>
-				</div>
-				<div class="content">
-					<div class="value">
-						<div class="currency">$2,010,926.10</div>
-						<div class="positive">+0.21% / $38,881.63</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="content">
-					<div class="account">AAA - 3810</div>
-				</div>
-				<div class="content">
-					<div class="value">
-						<div class="currency">$10,050,054.07</div>
-						<div class="positive">+0.07% / $8,916.69</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer">Load more</div>
-		</div>
-	</div>
-</body>
-
-</html>
+<div class="account-view">
+  <div class="account-view___headers">
+    <div class="account-view___title--account">
+      <span>Account<span>
+    </div>
+    <div class="account-view___title--avialable">
+      <div><span>^</span>Available Cash</div>
+      Today's Charge
+    </div>
+  </div>
+  <div class="account-view__body">
+    <div class="account-view__row">
+        <h3>IRA - 5200</h3>
+        <div class="account-view__available">
+          <p>$5,763.36</p>
+          <p class="account--negative">-0.08% / $8,916.99</p>
+        </div>
+    </div>
+    <div class="account-view__row">
+        <h3>AAA - 1812</h3>
+        <div class="account-view__available">
+          <p>$2,010,926.10</p>
+          <p class="account--positive">+0.21% / $38,881.63</p>
+        </div>
+    </div>
+    <div class="account-view__row">
+        <h3>AAA - 3810</h3>
+        <div class="account-view__available">
+          <p>$10,050,054</p>
+          <p class="account--positive">+0.07% / $8,916.99</p>
+        </div>
+    </div>
+    <div class="account-view__row account-view__row--loader">
+        <h4>Load more</h4>
+    </div>
+  </div>
+<div>
